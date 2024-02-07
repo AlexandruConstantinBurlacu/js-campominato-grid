@@ -26,8 +26,23 @@ buttonElement.addEventListener("click", function() {
         squareElement.classList.add('square');
         squareElement.textContent = i;
         gridElement.appendChild(squareElement);
+
+
+        // cambio colore al click del numero
+
+        squareElement.addEventListener('click', function() {
+            squareElement.style.backgroundColor = 'green';
+            
+            // aggiungo il numero della casella in console
+            console.log('Hai cliccato la casella numero: ', i);
+        });
+
+
     }
+
 
 });
 
+
 console.log(gridElement);
+console.log(squareElement);
