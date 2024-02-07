@@ -1,11 +1,15 @@
 // creazione quadrati
-const buttonElement = document.querySelector("#start");
+// const buttonElement = document.querySelector("#start");
 
-buttonElement.addEventListener("click", function() {
-    for(let i = 0; i <= 100; i++) {
-        const div = document.createElement("div");
-        console.log(this);
-    }
-});
+// buttonElement.addEventListener("click", function() {
+//    for(let i = 0; i <= 100; i++) {
+//        const divElement = document.createElement("div");
+//        divElement.classList.add("square");
+//        document.querySelector(".grid").innerHTML = divElement;
+//        console.log(this);
+//    }
+// });
 
-console.log();
+// console.log();
+
+// ------- CAMBIO METODO ----------
