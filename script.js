@@ -31,10 +31,16 @@ buttonElement.addEventListener("click", function() {
         // cambio colore al click del numero
 
         squareElement.addEventListener('click', function() {
-            squareElement.style.backgroundColor = 'green';
+            if (squareElement.style.backgroundColor === 'green') {
+                squareElement.style.backgroundColor = '';
+            } else {
+                // aggiungo il numero della casella in console
+                console.log('Hai cliccato la casella numero: ', i);
+                squareElement.style.backgroundColor = 'green';
+
+            }
             
-            // aggiungo il numero della casella in console
-            console.log('Hai cliccato la casella numero: ', i);
+            
         });
 
 
@@ -45,4 +51,3 @@ buttonElement.addEventListener("click", function() {
 
 
 console.log(gridElement);
-console.log(squareElement);
