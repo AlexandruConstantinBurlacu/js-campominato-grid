@@ -19,7 +19,7 @@ const buttonElement = document.querySelector("#start");
 
 buttonElement.addEventListener("click", function() {
     
-    gridElement.classList.toggle('grid');
+    gridElement.classList.toggle('nascosta');
 
 });
 
