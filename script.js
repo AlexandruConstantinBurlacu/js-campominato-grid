@@ -13,3 +13,14 @@
 // console.log();
 
 // ------- CAMBIO METODO ----------
+
+const gridElement = document.querySelector(".grid");
+const buttonElement = document.querySelector("#start");
+
+buttonElement.addEventListener("click", function() {
+    
+    gridElement.classList.toggle('grid');
+
+});
+
+console.log(gridElement);
