@@ -21,7 +21,7 @@ buttonElement.addEventListener("click", function() {
     
     gridElement.classList.toggle('nascosta');
 
-    for(let i = 0; i <= 100; i++) {
+    for(let i = 1; i <= 100; i++) {
         const squareElement = document.createElement('div');
         squareElement.classList.add('square');
         squareElement.textContent = i;
