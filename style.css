@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container {
+.container-grid {
     display: flex;
     justify-content: center;
     margin-top: 100px;
@@ -15,4 +15,10 @@
     width: 500px;
 
     border: 1px solid red;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
